@@ -23,7 +23,7 @@
 .hvr-underline-from-center::before{
 	background:#bf832b;
 }
-.block-title,.restaurace-title{
+.block-title,.restaurace-title,.menu-sekce-title{
 	color: #bf832b;
 }
 .white {
