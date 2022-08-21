@@ -37,7 +37,7 @@
 
 body{
 	background-color: #000000;;
-	font-size:14px;
+	font-size:18px;
 	font-family: 'Raleway', sans-serif;
 	line-height:1.80857;
     color: #e7e7e7 !important;
@@ -377,9 +377,6 @@ hr {
 	min-height:70%;
 }
 
-.banner-jidelak {
-    height: 50vh !important;
-}
 .banner .container, .banner .banner-static, .banner .col-lg-12 {
     height: 100%;
 }
@@ -590,9 +587,7 @@ hr {
     ABOUT AREA
 -------------------------------------------------------------------*/
 
-.about-main{
-	background:#222220;
-}
+
 .pad-top-100{
     padding-top: 90px;
 }
@@ -636,7 +631,7 @@ hr {
 
 
 .about-images img {
-    border: 10px solid #f1f1f1;
+    border: 5px solid #f1f1f1;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -646,7 +641,7 @@ hr {
 }
 
 .about-images img {
-    border: 10px solid #f1f1f1;
+    border: 5px solid #f1f1f1;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -667,7 +662,7 @@ hr {
     SPECIAL-MENU AREA
 -------------------------------------------------------------------*/
 .special-menu{
-	background:url(../images/special_menu_bg.jpg) no-repeat center;
+	background:url(../images/jidla/rajcatova-polevka.jpg) no-repeat center;
 	background-attachment:fixed;
 	background-size:cover;
 	position:relative;
@@ -805,6 +800,7 @@ hr {
 	height: 16px;
 	width: 16px;
 }
+
 
 /*------------------------------------------------------------------
     MENU AREA
@@ -1816,17 +1812,20 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 /* všechny restaurace grid landing */
 
 #vsechnyrestaurace {
-    background: #222220;
+
     max-width: min(100%,1600px);
     display: flex;
     gap: 80px;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 auto;
+    margin: 4em auto;
+    
 }
 
 .jednarestaurace {
     max-width: min(100%,400px);
+    text-align: center;
+    border: 1px solid #fff;;
 }
 
 .jednarestaurace img {
@@ -1847,6 +1846,10 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 .restaurace-title{
 	font-size: 35px;
 	font-family: 'Raleway';
+}
+
+.popisRestaurace {
+    padding: 0.5em;
 }
 
 /* ceník */
