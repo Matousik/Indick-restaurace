@@ -307,3 +307,18 @@
 		 
 	
 })(jQuery);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('lang-toggle');
+    toggleButton.textContent = 'EN';
+
+    toggleButton.addEventListener('click', () => {
+        const currentLang = toggleButton.textContent;
+        const newLang = currentLang === 'EN' ? 'CS' : 'EN';
+        toggleButton.textContent = newLang;
+
+        document.querySelectorAll('[data-en], [data-cs]').forEach(element => {
+            element.textContent = element.dataset[currentLang.toLowerCase()];
+        });
+    });
+});

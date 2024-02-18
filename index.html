@@ -70,12 +70,13 @@
                             </div>
                             <div id="navbar" class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a href="#banner">Úvod</a></li>
+                                    <li class="active"><a href="#banner" data-en="Home" data-cs="Úvod">Úvod</a></li>
                                     <li><a href="#menu-nahledove">Menu</a></li>
-                                    <li><a href="#gallery">Galerie</a></li>
-                                    <li><a href="#kontakt">Kontakt</a></li>
-                                    <li><a href="#rezervace">Rezervace</a></li>
+                                    <li><a href="#gallery" data-en="Gallery" data-cs="Galerie">Galerie</a></li>
+                                    <li><a href="#kontakt" data-en="Contact" data-cs="Kontakt">Kontakt</a></li>
+                                    <li><a href="#rezervace" data-en="Reservations" data-cs="Rezervace">Rezervace</a></li>
                                     <li><a href="https://www.jidlopodnos.cz/rozvoz-jidel/usti-nad-labem/indicka-restaurace-taj-mahal/objednat" target="_blank"><img src="images/podnos.svg" alt=""></a></li>
+                                    <li><a href="#" id="lang-toggle">EN</a></li>
                                 </ul>
                             </div>
                             <!-- end nav-collapse -->
@@ -96,14 +97,14 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="banner-static">
                     <div class="banner-text">
-                            <h1>Indická restaurace Taj Mahal u Stadionu</h1>
-                            <p>Ta nejlepší indická restaurace.</p>
-                        <div class="refButtons">
+                            <h1 data-en="Indian Restaurant Taj Mahal at the Stadium" data-cs="Indická restaurace Taj Mahal u Stadionu">Indická restaurace Taj Mahal u Stadionu</h1>
+                            <p data-en="The best Indian restaurant." data-cs="Ta nejlepší indická restaurace.">Ta nejlepší indická restaurace.</p>                        
+                            <div class="refButtons">
                                 <div class="book-btn banner-cell">
-                                    <a href="menu.html" class="table-btn hvr-underline-from-center">jídelní menu</a>
+                                    <a href="menu.html" class="table-btn hvr-underline-from-center" data-en="food menu" data-cs="jídelní menu">jídelní menu</a>
                                 </div>
                                 <div class="book-btn banner-cell">
-                                    <a href="#rezervace" class="table-btn hvr-underline-from-center">Rezervace</a>
+                                    <a href="#rezervace" class="table-btn hvr-underline-from-center" data-en="make reservation" data-cs="rezervace">Rezervace</a>
                                 </div>
                         </div>
 
@@ -219,72 +220,12 @@
     </div>
     <!-- end special-menu -->
 
-   <div id="menu-celkove" class="hidden">
-    <h2 class="block-title text-center">Menu</h2>
-    <div class="polevky">
-        <h2 class="menu-sekce-title">Polévky</h2>
-            <div class="menu-sekce-thumb">
-            </div>
-            <div class="jidlo-container">
-                <img src="images/jidla/tikka.png" alt="" class="jidloThumb hidden">
-                <div class="jidlo-popisek">
-                    <div class="prvni-radek">
-                        <h4 class="jmeno-jidla">Tikka Masala</h4>
-                        <span class="divider"></span>
-                        <span class="cena">165 Kč</span>
-
-                    </div>
-                    <div class="zbytek">
-                        <p class="o-jidle gramaz">100g</p>
-                        <p class="o-jidle">Jízdárna jídlo je tam paprika a kuře a super omáčka a dej si k tomu placky</p>
-                        <p class="o-jidle">Ich spreche nicht Deutsch. Tikka Tikka jaja gut.</p>
-                        <p class="o-jidle">Fuckin cool food man.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="jidlo-container">
-                <img src="images/jidla/tikka.png" alt="" class="jidloThumb hidden">
-                <div class="jidlo-popisek">
-                    <div class="prvni-radek">
-                        <h4 class="jmeno-jidla">Smažák se sejrem</h4>
-                        <span class="divider"></span>
-                        <span class="cena">165 Kč</span>
-
-                    </div>
-                    <div class="zbytek">
-                        <p class="o-jidle gramaz">100g</p>
-                        <p class="o-jidle">Jízdárna jídlo je tam paprika a kuře a super omáčka a dej si k tomu placky</p>
-                        <p class="o-jidle">Ich spreche nicht Deutsch. Tikka Tikka jaja gut.</p>
-                        <p class="o-jidle">Fuckin cool food man.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="jidlo-container">
-                <img src="images/jidla/tikka.png" alt="" class="jidloThumb hidden">
-                <div class="jidlo-popisek">
-                    <div class="prvni-radek">
-                        <h4 class="jmeno-jidla">Malej Kebab</h4>
-                        <span class="divider"></span>
-                        <span class="cena">165 Kč</span>
-
-                    </div>
-                    <div class="zbytek">
-                        <p class="o-jidle gramaz">100g</p>
-                        <p class="o-jidle">Jízdárna jídlo je tam paprika a kuře a super omáčka a dej si k tomu placky</p>
-                        <p class="o-jidle">Ich spreche nicht Deutsch. Tikka Tikka jaja gut.</p>
-                        <p class="o-jidle">Fuckin cool food man.</p>
-                    </div>
-                </div>
-            </div>
-    </div>
-   </div>
-
    <div id="gallery" class="gallery-main pad-top-100 pad-bottom-100">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                    <h2 class="block-title text-center">
+                    <h2 class="block-title text-center" data-en="Take a sneak peek" data-cs="Nahlédněte k nám">
                     Nahlédněte k nám
                 </h2>
                     <p class="title-caption text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nemo animi nihil rerum eligendi iusto quo aliquam accusantium consectetur suscipit hic, quae laboriosam commodi consequatur vero? Sunt, fuga. Mollitia, modi?</p>
@@ -503,7 +444,7 @@
 
     <div class="kontakt" id="kontakt">
         <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-            <h2 class="block-title text-center">
+            <h2 class="block-title text-center" data-en="Where to find us" data-cs="Kde nás najdete">
             Kde nás najdete
         </h2>
             <p class="title-caption text-center">Ulice Masarykova 120/210 <br> 400 01 <br> Ústí nad Labem </p>
@@ -515,8 +456,8 @@
 
     <div class="rezervace parallax" id="rezervace">
         <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-            <h2 class="block-title text-center white">
-            Zarezervujte si u nás místo
+            <h2 class="block-title text-center white" data-en="Book a table" data-cs="Zarezervujte si u nás stůl">
+            Zarezervujte si u nás stůl
             </h2>
             <a href="tel:00420-412-372-361">
                 <div class="phone">
@@ -561,7 +502,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="footer-box-a">
-                                <h3>Více informací</h3>
+                                <h3 data-en="Additional information" data-cs="Více informací">Více informací</h3>
                                 <p>Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes.</p>
                                 <ul class="socials-box footer-socials pull-left">
                                     <li>
@@ -595,7 +536,7 @@
                         <!-- end col -->
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="footer-box-c">
-                                <h3>Kontakty</h3>
+                                <h3 data-en="Contacts" data-cs="Kontakty">Kontakty</h3>
                                 <p>
                                     <i class="fa fa-map-signs" aria-hidden="true"></i>
                                     <span>Masarykova 120/210, Ústí nad Labem, 400 01</span>
@@ -612,7 +553,7 @@
                         <!-- end col -->
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="footer-box-d">
-                                <h3>Otevírací doba</h3>
+                                <h3 data-en="Opening hours" data-cs="Otevírací doba">Otevírací doba</h3>
 
                                 <ul>
                                     <li>
