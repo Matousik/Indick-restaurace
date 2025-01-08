@@ -2121,6 +2121,12 @@ transition: all 0.4s;
 
 .restaurant-card {
     width: 350px;
+    @media screen and (max-width: 768px) {
+        width: 300px;
+    }
+    @media screen and (max-width: 480px) {
+        width: 250px;
+    }
     height: 400px;
     background: #111;
     border: 1px solid #bf832b;
@@ -2171,9 +2177,6 @@ transition: all 0.4s;
     font-size: 24px;
     color: #bf832b;
     margin-bottom: 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .restaurant-address {
