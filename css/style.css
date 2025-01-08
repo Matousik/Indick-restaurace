@@ -2109,9 +2109,7 @@ transition: all 0.4s;
 .restaurants-list {
     max-width: 1200px;
     margin: 3rem auto 100px;
-    @media screen and (max-width: 1199px) {
-        margin: 200px auto 100px; 
-    }
+
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
