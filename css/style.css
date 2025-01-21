@@ -377,7 +377,7 @@ hr {
 -------------------------------------------------------------------*/
 
 .banner{
-	background:url(../images/banner.jpg) no-repeat center top;
+	background:var(--banner-bg, url(../images/banner.jpg)) no-repeat center top;
 	background-attachment:fixed;
 	background-size:cover;
 	height:100vh;
@@ -437,7 +437,7 @@ hr {
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 460px;
 }
 
 .banner-text h1 {
@@ -2145,20 +2145,16 @@ transition: all 0.4s;
 }
 
 .restaurant-image {
-    width: 100%;
-    height: 250px;
-    overflow: hidden;
+    padding: 2rem;
+    background-color: #FBE9B7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .restaurant-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: all 0.3s ease;
-}
-
-.restaurant-card:hover .restaurant-image img {
-    transform: scale(1.1);
+    max-width: 100%;
+    height: auto;
 }
 
 .restaurant-info {

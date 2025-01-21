@@ -59,14 +59,23 @@
         =========================*/
 		
 		$(document).ready(function() {
-		  $("#owl-demo").owlCarousel({
-			  autoPlay: 3000, //Set AutoPlay to 3 seconds
-			  items : 3,
-			  itemsDesktop : [1199,3],
-			  itemsDesktopSmall : [979,2]
-		 
+			var owl = $("#owl-demo").owlCarousel({
+				autoPlay: 5000, // Increased to 8 seconds
+				stopOnHover: true, // Stop on hover
+				items : 3,
+				itemsDesktop : [1199,3],
+				itemsDesktopSmall : [979,2]
+			});
+		  
+			// Add hover handlers
+			$("#owl-demo").on('mouseover', function(){
+				owl.trigger('owl.stop');
+			});
+		  
+			$("#owl-demo").on('mouseout', function(){
+				owl.trigger('owl.play', 5000);
+			});
 		  });
-		});
 		
 		/* ========================
 			SLIDER - TAB 
