@@ -2019,6 +2019,10 @@ em{font-style:italic;}
 
 /* kontakt */
 
+.kontakt {
+    margin-top: 50px;
+}
+
 #map {
     width: 100%;
     height: 80vh;
