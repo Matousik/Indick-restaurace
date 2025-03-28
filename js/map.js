@@ -7,42 +7,37 @@ function initMapUstiUStadionu() {
 }
 
 function initMapTeplice() {
-    const LatLng = { lat: 50.6402247, lng: 13.8244867 };
+    const LatLng = { lat: 50.64172563383705, lng: 13.829032850353265 };
     initMapCommon(LatLng);
 }
 
-function initMapDubi() {
-    const LatLng = { lat: 50.6960189, lng: 13.7843075 };
+function initMapBudejovicePiaristicka() {
+    const LatLng = { lat: 48.97472759094028, lng: 14.487053544683244 };
     initMapCommon(LatLng);
 }
 
-function initMapMost() {
-    const LatLng = { lat: 50.5016111, lng: 13.6333161 };
+function initMapBudejoviceChelcickeho() {
+    const LatLng = { lat: 48.97472759094028, lng: 14.487407596277993 };
+    initMapCommon(LatLng);
+}
+
+function initMapUstiMiroveNamesti() {
+    const LatLng = { lat: 50.460881702429106, lng: 13.419242936849894 };
+    initMapCommon(LatLng);
+}
+
+function initMapDecin() {
+    const LatLng = { lat: 50.780552544397544, lng: 14.214210435017769 };
     initMapCommon(LatLng);
 }
 
 function initMapChomutov() {
-    const LatLng = { lat: 50.4604156, lng: 13.4127689 };
+    const LatLng = { lat: 50.460865721594175, lng: 13.418717702970689 };
     initMapCommon(LatLng);
 }
 
-function initMapLitvinov() {
-    const LatLng = { lat: 50.6023625, lng: 13.6124497 };
-    initMapCommon(LatLng);
-}
-
-function initMapUstiTrmice() {
-    const LatLng = { lat: 50.6391925, lng: 14.0111714 };
-    initMapCommon(LatLng);
-}
-
-function initMapUstiStribrniky() {
-    const LatLng = { lat: 50.6657497, lng: 14.0430714 };
-    initMapCommon(LatLng);
-}
-
-function initMapUstiKrasneBrezensko() {
-    const LatLng = { lat: 50.6657497, lng: 14.0430714 };
+function initMapTabor() {
+    const LatLng = { lat: 49.41247979536338, lng: 14.671795165616873 };
     initMapCommon(LatLng);
 }
 
@@ -52,13 +47,10 @@ function initMapCommon(LatLng) {
         zoom: 15,
     });
 
-    const image = "./images/taj-mahal-map-thumb-75.png";
-
     var marker = new google.maps.Marker({
         position: LatLng,
         map,
-        title: "Taj Mahal",
-        icon: image,
+        title: "Taj Mahal"
     });
     
     marker.setMap(map);

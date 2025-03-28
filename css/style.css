@@ -667,7 +667,6 @@ hr {
 
 
 .about-images img {
-    border: 5px solid #f1f1f1;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -677,7 +676,6 @@ hr {
 }
 
 .about-images img {
-    border: 5px solid #f1f1f1;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
