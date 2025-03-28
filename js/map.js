@@ -41,6 +41,11 @@ function initMapTabor() {
     initMapCommon(LatLng);
 }
 
+function initMapUstiNadLabemCentrum() {
+    const LatLng = { lat: 50.660609026612285, lng: 14.04399657116445 };
+    initMapCommon(LatLng);
+}
+
 function initMapCommon(LatLng) {
     map = new google.maps.Map(document.getElementById("map"), {
         center: LatLng,
